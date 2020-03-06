@@ -49,10 +49,10 @@ We can now add an event listener to `save_btn`. Below the existing code, registe
 In the body of the `save_btn` event handler, set the HTML of the `error` element to an empty string.
 
 Next, create an `if` statement that tests whether the `value` of `input` is not equal to an empty string. -->
-
+<!-- 
 ## Validate Input - if body
 
-Add three lines in the body of the `if` statement. The first should add `1` to `order` and reassign the value back to `order`. The second should change the HTML of the `item` element to the `value` of the `input`. The third should toggle `adding` to `false`.
+Add three lines in the body of the `if` statement. The first should add `1` to `order` and reassign the value back to `order`. The second should change the HTML of the `item` element to the `value` of the `input`. The third should toggle `adding` to `false`. -->
 
 ## Validate Input - else body
 
