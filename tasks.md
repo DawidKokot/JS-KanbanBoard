@@ -21,12 +21,12 @@ Finally, make the `item` `draggable`. -->
 Now that the `item` is `draggable`, add an event listener that listens for the `dragstart` event to `item`. When creating the event listener, pass an arrow function as the handler. The arrow function should accept a single parameter of `event`, and it should return a call to the `setData()` method. The `setData()` method is part of the `DataTransfer` object, which needs to be accessed through the `event`.
 
 Use the `setData()` method to set `'text'` to the `id` of the `event.target` element. -->
-
+<!-- 
 ## dragend Event Listener
 
 After the `dragstart` event listener, add an event listener that listens for the `dragend` event to `item`.
 
-When creating the event listener, pass an arrow function as the handler. The arrow function should accept a single parameter of `event`, and it should return a call to the `clearData()` method. The `clearData()` method is part of the `DataTransfer` object, which needs to be accessed through the `event`.
+When creating the event listener, pass an arrow function as the handler. The arrow function should accept a single parameter of `event`, and it should return a call to the `clearData()` method. The `clearData()` method is part of the `DataTransfer` object, which needs to be accessed through the `event`. -->
 
 ## Create input Element
 
