@@ -28,11 +28,11 @@ After the `dragstart` event listener, add an event listener that listens for the
 
 When creating the event listener, pass an arrow function as the handler. The arrow function should accept a single parameter of `event`, and it should return a call to the `clearData()` method. The `clearData()` method is part of the `DataTransfer` object, which needs to be accessed through the `event`. -->
 
-## Create input Element
+<!-- ## Create input Element
 
 Below the drag event listeners, use the `createElement()` method to create a DOM element of type `input`. Save a reference to the element in a constant called `input`.
 
-Append this new `input` element to the `item` element with the correct DOM method.
+Append this new `input` element to the `item` element with the correct DOM method. -->
 
 ## Create a Save Button
 
