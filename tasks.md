@@ -44,11 +44,11 @@ Change the `innerHTML` property of the `save_btn` element to `Save`. -->
 
 We can now add an event listener to `save_btn`. Below the existing code, register an event listener for `save_btn` that listens for a `click` event. Pass an arrow function as the handler. The arrow function does not need to accept any parameters. -->
 
-## Validate Input - if conditional
+<!-- ## Validate Input - if conditional
 
 In the body of the `save_btn` event handler, set the HTML of the `error` element to an empty string.
 
-Next, create an `if` statement that tests whether the `value` of `input` is not equal to an empty string.
+Next, create an `if` statement that tests whether the `value` of `input` is not equal to an empty string. -->
 
 ## Validate Input - if body
 
