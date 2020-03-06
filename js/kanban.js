@@ -37,6 +37,8 @@ const create_item = () => {
             error.innerHTML= message;
         } 
     });
+    item.appendChild(save_btn);
+    return item;
 };
 
 document.querySelectorAll('.drop').forEach(element => {

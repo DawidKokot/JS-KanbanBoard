@@ -53,14 +53,14 @@ Next, create an `if` statement that tests whether the `value` of `input` is not 
 ## Validate Input - if body
 
 Add three lines in the body of the `if` statement. The first should add `1` to `order` and reassign the value back to `order`. The second should change the HTML of the `item` element to the `value` of the `input`. The third should toggle `adding` to `false`. -->
-
+<!-- 
 ## Validate Input - else body
 
-Still in the `save_btn` handler, add an `else` statement to the existing `if` statement. In the body of this `else` statement, set the HTML of the `error` element to the `message` string.
+Still in the `save_btn` handler, add an `else` statement to the existing `if` statement. In the body of this `else` statement, set the HTML of the `error` element to the `message` string. -->
 
-## Append the Save Button
+<!-- ## Append the Save Button
 
-Now that all parts of the `save_btn` are complete, append it to the `item` element. With this `item` is now complete as well, return it from the `create_item()` function.
+Now that all parts of the `save_btn` are complete, append it to the `item` element. With this `item` is now complete as well, return it from the `create_item()` function. -->
 
 ## Drop Event - Handler
 
