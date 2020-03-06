@@ -68,9 +68,9 @@ Below the `create_item()` function, find the `forEach` loop. In the body, add an
 
 To begin the event handler, prevent the default action of `event`. -->
 
-## Drop Event - Data Transfer
+<!-- ## Drop Event - Data Transfer
 
-Still in the `drop` event handler, get the data in `'text'` with the `getData()` method. The `getData()` method is part of the `DataTransfer` object, which needs to be accessed through the `event`. Store the returned value in a constant called `id`.
+Still in the `drop` event handler, get the data in `'text'` with the `getData()` method. The `getData()` method is part of the `DataTransfer` object, which needs to be accessed through the `event`. Store the returned value in a constant called `id`. -->
 
 ## Drop Event - Append Element
 
