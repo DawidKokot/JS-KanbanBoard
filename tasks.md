@@ -62,11 +62,11 @@ Still in the `save_btn` handler, add an `else` statement to the existing `if` st
 
 Now that all parts of the `save_btn` are complete, append it to the `item` element. With this `item` is now complete as well, return it from the `create_item()` function. -->
 
-## Drop Event - Handler
+<!-- ## Drop Event - Handler
 
 Below the `create_item()` function, find the `forEach` loop. In the body, add an event listener that listens for the `drop` event to `element`. When creating the event listener, pass an arrow function as the handler. The arrow function should accept a single parameter of `event`.
 
-To begin the event handler, prevent the default action of `event`.
+To begin the event handler, prevent the default action of `event`. -->
 
 ## Drop Event - Data Transfer
 

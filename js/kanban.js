@@ -37,9 +37,12 @@ const create_item = () => {
             error.innerHTML= message;
         } 
     });
-    item.appendChild(save_btn);
+    item.appendChild(save_btn)
     return item;
 };
 
 document.querySelectorAll('.drop').forEach(element => {
+    element.addEventListener("drop", event => {
+        event.preventDefault();
+    })
 });
