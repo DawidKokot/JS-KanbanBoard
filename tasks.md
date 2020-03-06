@@ -34,15 +34,15 @@ Below the drag event listeners, use the `createElement()` method to create a DOM
 
 Append this new `input` element to the `item` element with the correct DOM method. -->
 
-## Create a Save Button
+<!-- ## Create a Save Button
 
 Below the `input` element, use the `createElement()` method to create a DOM element of type `button`. Save a reference to the element in a constant called `save_btn`.
 
-Change the `innerHTML` property of the `save_btn` element to `Save`.
+Change the `innerHTML` property of the `save_btn` element to `Save`. -->
 
-## Save Button Event Listener
+<!-- ## Save Button Event Listener
 
-We can now add an event listener to `save_btn`. Below the existing code, register an event listener for `save_btn` that listens for a `click` event. Pass an arrow function as the handler. The arrow function does not need to accept any parameters.
+We can now add an event listener to `save_btn`. Below the existing code, register an event listener for `save_btn` that listens for a `click` event. Pass an arrow function as the handler. The arrow function does not need to accept any parameters. -->
 
 ## Validate Input - if conditional
 
