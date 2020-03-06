@@ -72,9 +72,9 @@ To begin the event handler, prevent the default action of `event`. -->
 
 Still in the `drop` event handler, get the data in `'text'` with the `getData()` method. The `getData()` method is part of the `DataTransfer` object, which needs to be accessed through the `event`. Store the returned value in a constant called `id`. -->
 
-## Drop Event - Append Element
+<!-- ## Drop Event - Append Element
 
-As the last line of the `drop` event handler, append the element that has an id of `id` to `event.target`. **Hint: use the `getElementById()` method of `document`.**
+As the last line of the `drop` event handler, append the element that has an id of `id` to `event.target`. **Hint: use the `getElementById()` method of `document`.** -->
 
 ## Drag Event - Handler
 
